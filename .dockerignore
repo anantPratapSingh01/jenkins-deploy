@@ -1,0 +1,29 @@
+    # Node
+node_modules
+npm-debug.log
+yarn.lock
+
+# Env files (secrets)
+.env
+.env.local
+.env.development
+.env.production
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Next.js build cache (rebuild hota hai)
+.next
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docs
+README.md
+# Logs

@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    command: npm start
+
+
+  # mongos:
+   # image: mongose
+    #ports:
+     # - "27017:27017"
+    #restart: unless-stopped
+    #depends_on:
+     # - 
