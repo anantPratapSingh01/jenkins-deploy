@@ -26,7 +26,7 @@ export default function Home() {
     <div className="flex h-screen items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black">
       <div className="text-center">
         <h1 className="text-3xl font-bold text-white mb-6">
-          🎉 Toast Notification Demo
+          🎉 Toast Notification Try
         </h1>
         <button
           onClick={notify}
